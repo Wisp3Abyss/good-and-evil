@@ -1,0 +1,7 @@
+/* 0.5.1 2020-12-04 18:40:10 */
+var app=new function(){this.name="Alpha",this.version="1",this.date="2009",this.folder="asset-v1/",this.looptime=6400,this.bpm=150,this.totalframe=260,this.nbpolo=7,this.nbloopbonus=1,this.bonusloopA=!0,this.bonusendloopA=!0,this.recmaxloop=562,this.recminloop=10,this.recmintime=Math.round(this.looptime/1e3)*this.recminloop,this.spritepolo="polo-sprite.png",this.spritepicto="game-picto.png",this.colBck="#000000",
+    this.col0="#000000",
+    this.col1="#000000",
+    this.col2="#000000",
+    this.col3="#000000",
+    this.col4="#000000",this.animearray=[{name:"2_绷带",color:"808080",uniqsnd:!0},{name:"3_无性眼",color:"808080",uniqsnd:!0},{name:"4_电眼",color:"808080",uniqsnd:!0},{name:"5_失眼",color:"808080",uniqsnd:!0},{name:"6_眼",color:"808080",uniqsnd:!0},{name:"7_白眼",color:"808080",uniqsnd:!0},{name:"8_眼eye",color:"808080",uniqsnd:!0},{name:"9_注视之眼",color:"808080",uniqsnd:!0},{name:"12_发条眼",color:"808080",uniqsnd:!0},{name:"13_梦眼",color:"808080",uniqsnd:!0},{name:"14_AN2",color:"808080",uniqsnd:!0},{name:"15_几何",color:"808080",uniqsnd:!0},{name:"16_依兰",color:"808080",uniqsnd:!0},{name:"17_苏打眼",color:"808080",uniqsnd:!0},{name:"18_黑眼",color:"808080",uniqsnd:!0},{name:"19_霜眼",color:"808080",uniqsnd:!0},{name:"20_guit",color:"808080",uniqsnd:!0}],this.bonusarray=[];for(var n=0,o=this.animearray.length;n<o;n++){var a=this.animearray[n].name;this.animearray[n].soundA=a+"_a",this.animearray[n].soundB=this.animearray[n].uniqsnd?a+"_a":a+"_b",this.animearray[n].anime=a+"-sprite.png",this.animearray[n].animeData=a+".json"}};
